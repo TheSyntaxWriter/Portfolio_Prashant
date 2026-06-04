@@ -1,29 +1,50 @@
 export const projects = [
   {
-    title: "Premium Portfolio Website",
-    type: "Static Website",
+    title: "Quality Control Management System",
+    type: "Current Development",
     description:
-      "A single-page personal portfolio designed for GitHub Pages with a premium visual system and timeline-first content structure.",
-    stack: ["HTML5", "CSS3", "Vanilla JavaScript"],
-    links: [
-      { label: "Live Site", url: "#hero" },
-      { label: "Timeline", url: "#timeline" }
-    ]
+      "A Django and Python based internal quality control platform being developed to improve checklist tracking, process visibility, and operational reporting.",
+    stack: ["Django", "Python", "MIS", "Quality Control"],
+    links: [{ label: "Timeline Context", url: "#timeline" }]
   },
   {
-    title: "Document Vault System",
-    type: "Portfolio Feature",
+    title: "Checklist Management System",
+    type: "Group-108 Project",
     description:
-      "A maintainable data-driven document section prepared for certificates, resumes, and professional proof files.",
-    stack: ["JavaScript Modules", "Static Assets"],
-    links: [{ label: "View Vault", url: "#documents" }]
+      "A workflow-focused system contribution for organizing, tracking, and standardizing checklist-based operational activities.",
+    stack: ["Process Design", "Reporting", "Operations"],
+    links: [{ label: "View Role", url: "#timeline" }]
   },
   {
-    title: "Career Timeline Architecture",
-    type: "Content System",
+    title: "Visitor Management System",
+    type: "Operational Achievement",
     description:
-      "A structured timeline format that turns milestones into a complete professional narrative.",
-    stack: ["Data Modeling", "HTML Templates", "CSS Layout"],
-    links: [{ label: "Explore", url: "#timeline" }]
+      "A system contribution created during front desk operations to improve visitor handling, documentation, and reception workflow visibility.",
+    stack: ["Visitor Operations", "Documentation", "Workflow"],
+    links: [{ label: "Career Highlight", url: "#highlights" }]
+  },
+  {
+    title: "Helpdesk Management System",
+    type: "Operational Achievement",
+    description:
+      "A helpdesk workflow contribution focused on issue tracking, request handling, and smoother internal support coordination.",
+    stack: ["Helpdesk", "Coordination", "Support Workflow"],
+    links: [{ label: "Career Highlight", url: "#highlights" }]
+  },
+  {
+    title: "HRMS Testing",
+    type: "Software Testing",
+    description:
+      "Testing support for HRMS workflows, helping validate business processes, usability, and internal system readiness.",
+    stack: ["HRMS", "Testing", "Business Process"],
+    links: [{ label: "MIS Role", url: "#timeline" }]
+  },
+  {
+    title: "VISTRAX INDIA Vision",
+    type: "Entrepreneurship",
+    description:
+      "A long-term software company vision focused on SaaS, ERP, HRMS, and AI solutions for practical business transformation.",
+    stack: ["SaaS", "ERP", "HRMS", "AI Solutions"],
+    links: [{ label: "Future Vision", url: "#vision" }]
   }
 ];
