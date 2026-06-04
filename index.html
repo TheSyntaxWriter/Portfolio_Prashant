@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premium single-page portfolio for Prashant featuring career timeline, projects, documents, and future vision." />
+  <title>Prashant | Premium Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#hero" aria-label="Prashant portfolio home">
+      <span class="brand__mark">P</span>
+      <span class="brand__text">Prashant</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="sr-only">Toggle navigation</span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" data-nav>
+      <a href="#about">About</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#documents">Documents</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero" aria-labelledby="hero-title">
+      <div class="hero__content reveal">
+        <p class="eyebrow">Premium Personal Portfolio</p>
+        <h1 id="hero-title">Building a career with clarity, consistency, and measurable impact.</h1>
+        <p class="hero__lead">
+          I am Prashant — a growth-focused professional shaping ideas into meaningful digital work,
+          practical projects, and a long-term career story worth following.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#timeline">Explore Timeline</a>
+          <a class="btn btn--ghost" href="#documents">View Documents</a>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Portfolio snapshot">
+        <div class="hero-card__orb"></div>
+        <p class="hero-card__label">Version 1 Focus</p>
+        <h2>Timeline-first portfolio</h2>
+        <p>Designed for GitHub Pages with static HTML, CSS, and vanilla JavaScript.</p>
+        <dl>
+          <div>
+            <dt>Format</dt>
+            <dd>Single page</dd>
+          </div>
+          <div>
+            <dt>Stack</dt>
+            <dd>HTML · CSS · JS</dd>
+          </div>
+          <div>
+            <dt>Data</dt>
+            <dd>Modular files</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section section--narrow reveal" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">About Me</p>
+      <h2 id="about-title">A concise introduction</h2>
+      <p>
+        This Version 1 portfolio is structured to grow with Prashant's journey. It presents a premium,
+        readable foundation where career milestones, proof documents, project work, and future goals can
+        be updated without rewriting page markup.
+      </p>
+    </section>
+
+    <section class="section reveal" id="highlights" aria-labelledby="highlights-title">
+      <div class="section-heading">
+        <p class="eyebrow">Career Highlights</p>
+        <h2 id="highlights-title">Signals of progress</h2>
+        <p>High-level achievements that help visitors understand the professional story quickly.</p>
+      </div>
+      <div class="highlight-grid">
+        <article class="highlight-card">
+          <span>01</span>
+          <h3>Portfolio foundation</h3>
+          <p>Created a static, maintainable portfolio architecture ready for GitHub Pages deployment.</p>
+        </article>
+        <article class="highlight-card">
+          <span>02</span>
+          <h3>Timeline-led storytelling</h3>
+          <p>Prioritized the timeline as the primary proof of career growth and learning momentum.</p>
+        </article>
+        <article class="highlight-card">
+          <span>03</span>
+          <h3>Evidence-ready documents</h3>
+          <p>Added a document vault pattern for certificates, resumes, transcripts, and other proof assets.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section reveal" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-heading section-heading--center">
+        <p class="eyebrow">Complete Timeline</p>
+        <h2 id="timeline-title">The core career story</h2>
+        <p>
+          The timeline is the most important section of this portfolio. Add every meaningful academic,
+          career, project, certification, and leadership milestone here.
+        </p>
+      </div>
+      <div class="timeline" data-timeline-list aria-live="polite"></div>
+    </section>
+
+    <section class="section reveal" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2 id="skills-title">Capabilities and tools</h2>
+        <p>Version 1 keeps skills simple, grouped, and easy to replace with real strengths later.</p>
+      </div>
+      <div class="skills-grid">
+        <article>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 semantics</li>
+            <li>CSS3 layouts</li>
+            <li>Vanilla JavaScript</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Professional</h3>
+          <ul>
+            <li>Structured planning</li>
+            <li>Documentation</li>
+            <li>Career storytelling</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Deployment</h3>
+          <ul>
+            <li>GitHub Pages</li>
+            <li>Static assets</li>
+            <li>Maintainable data files</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2 id="projects-title">Selected work</h2>
+        <p>Projects render from <code>data/projects.js</code> so new work can be added safely.</p>
+      </div>
+      <div class="project-grid" data-project-list aria-live="polite"></div>
+    </section>
+
+    <section class="section reveal" id="documents" aria-labelledby="documents-title">
+      <div class="section-heading">
+        <p class="eyebrow">Document Vault</p>
+        <h2 id="documents-title">Certificates, resumes, and proof</h2>
+        <p>Documents load dynamically from <code>data/documents.js</code>. Keep PDFs inside <code>assets/documents/</code>.</p>
+      </div>
+      <div class="document-grid" data-document-list aria-live="polite"></div>
+    </section>
+
+    <section class="section section--split reveal" id="vision" aria-labelledby="vision-title">
+      <div>
+        <p class="eyebrow">Future Vision</p>
+        <h2 id="vision-title">Where this portfolio goes next</h2>
+      </div>
+      <p>
+        Version 1 is intentionally clean. Future versions can add real case studies, verified certificates,
+        resume downloads, project screenshots, analytics, and accessibility refinements while keeping the
+        same static architecture.
+      </p>
+    </section>
+
+    <section class="section contact reveal" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-title">Let’s connect</h2>
+      <p>Replace these placeholders with your preferred email, LinkedIn, and GitHub links.</p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com">Email</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-current-year></span> Prashant. Built with HTML5, CSS3, and vanilla JavaScript.</p>
+  </footer>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
