@@ -1,65 +1,79 @@
 export const documents = [
   {
-    title: "Professional Resume",
-    category: "Career Document",
-    description: "Latest resume for Prashant Pathak covering MIS, software development, entrepreneurship, education, and projects.",
-    url: "assets/documents/prashant-pathak-resume.pdf",
-    status: "Coming soon"
-  },
-  {
-    title: "Class 10th Marksheet",
-    category: "Academic Proof",
-    description: "Class 10th certificate from JAS Inter College, Khurja under UP Board with 75.5%.",
-    url: "assets/documents/class-10-jas-inter-college.pdf",
+    title: "10th Marksheet",
+    category: "Education Document",
+    description: "Class 10th marksheet from JAS Inter College, Khurja under UP Board with 75.5%.",
+    url: "assets/documents/10th-marksheet.pdf",
     status: "Planned"
   },
   {
-    title: "Class 12th Marksheet",
-    category: "Academic Proof",
-    description: "Class 12th certificate from JAS Inter College, Khurja under UP Board with 67%.",
-    url: "assets/documents/class-12-jas-inter-college.pdf",
+    title: "12th Marksheet",
+    category: "Education Document",
+    description: "Class 12th marksheet from JAS Inter College, Khurja under UP Board with 67%.",
+    url: "assets/documents/12th-marksheet.pdf",
     status: "Planned"
   },
   {
-    title: "B.Sc PCM Degree / Marksheets",
-    category: "Academic Proof",
-    description: "Bachelor of Science PCM records from JS University, Shikohabad covering all three academic years.",
-    url: "assets/documents/bsc-pcm-js-university.pdf",
+    title: "B.Sc Documents",
+    category: "Education Document",
+    description: "B.Sc documents covering NREC College, Khurja and B.Sc PCM from JS University, Shikohabad.",
+    url: "assets/documents/bsc-documents.pdf",
     status: "Planned"
   },
   {
-    title: "DOAP Diploma Certificate",
-    category: "Diploma",
-    description: "Diploma in Office Automation & Publishing certificate with 80.09% and skills in MS Office, CorelDraw, and Adobe Photoshop.",
+    title: "M.Sc Documents",
+    category: "Education Document",
+    description: "M.Sc Physics documents from Himalayan Garhwal University with overall percentage of 67.41%.",
+    url: "assets/documents/msc-documents.pdf",
+    status: "Planned"
+  },
+  {
+    title: "MS Office Certificate",
+    category: "Certificate",
+    description: "MS Office Certification from SL Computer, Khurja.",
+    url: "assets/documents/ms-office-certificate.pdf",
+    status: "Planned"
+  },
+  {
+    title: "DOAP Diploma",
+    category: "Certificate",
+    description: "Diploma in Office Automation & Publishing with 80.09%, covering MS Office, CorelDraw, and Adobe Photoshop.",
     url: "assets/documents/doap-diploma.pdf",
     status: "Planned"
   },
   {
-    title: "MS Office Certification",
-    category: "Certification",
-    description: "MS Office certification from SL Computer, Khurja.",
-    url: "assets/documents/ms-office-sl-computer.pdf",
+    title: "Data Science Programme Certificate",
+    category: "Certificate",
+    description: "PG Programme in Data Science, Machine Learning & Neural Networks certificate with 56%.",
+    url: "assets/documents/data-science-programme-certificate.pdf",
     status: "Planned"
   },
   {
-    title: "M.Sc Physics Degree",
-    category: "Academic Proof",
-    description: "Master of Science in Physics from Himalayan Garhwal University with an overall score of 67.41%.",
-    url: "assets/documents/msc-physics-himalayan-garhwal-university.pdf",
+    title: "Flip Robo Internship",
+    category: "Experience Document",
+    description: "Work-from-home Data Science Internship proof from Flip Robo Technologies for 2022-2023.",
+    url: "assets/documents/flip-robo-internship.pdf",
     status: "Planned"
   },
   {
-    title: "PG Programme in Data Science Certificate",
-    category: "Professional Certificate",
-    description: "Certificate for Data Science, Machine Learning & Neural Networks programme covering Python, SQL, ML, DL basics, and NLP basics.",
-    url: "assets/documents/pg-programme-data-science-ml-nn.pdf",
+    title: "Group-108 Experience",
+    category: "Experience Document",
+    description: "Experience document for Front Desk Executive and MIS Executive work at Group-108.",
+    url: "assets/documents/group-108-experience.pdf",
     status: "Planned"
   },
   {
-    title: "Flip Robo Technologies Internship Certificate",
-    category: "Internship Proof",
-    description: "Data Science Internship proof from Flip Robo Technologies for the 2022-23 professional learning period.",
-    url: "assets/documents/flip-robo-data-science-internship.pdf",
+    title: "MSME Registration Certificate",
+    category: "Startup Document",
+    description: "MSME registration certificate for VISTRAX INDIA.",
+    url: "assets/documents/msme-registration-certificate.pdf",
+    status: "Planned"
+  },
+  {
+    title: "VISTRAX Documents",
+    category: "Startup Document",
+    description: "VISTRAX INDIA startup documents related to software products, automation solutions, and business vision.",
+    url: "assets/documents/vistrax-documents.pdf",
     status: "Planned"
   }
 ];

@@ -1,50 +1,66 @@
 export const projects = [
   {
-    title: "Quality Control Management System",
-    type: "Current Development",
+    title: "Visitor Management System",
+    type: "Advanced Excel Automation",
     description:
-      "A Django and Python based internal quality control platform being developed to improve checklist tracking, process visibility, and operational reporting.",
-    stack: ["Django", "Python", "MIS", "Quality Control"],
+      "An Advanced Excel based system created at Group-108 to automate visitor tracking, maintain structured records, and improve visitor reporting for administration workflows.",
+    stack: ["Advanced Excel", "Visitor Tracking", "Reporting"],
     links: [{ label: "Timeline Context", url: "#timeline" }]
   },
   {
-    title: "Checklist Management System",
-    type: "Group-108 Project",
-    description:
-      "A workflow-focused system contribution for organizing, tracking, and standardizing checklist-based operational activities.",
-    stack: ["Process Design", "Reporting", "Operations"],
-    links: [{ label: "View Role", url: "#timeline" }]
-  },
-  {
-    title: "Visitor Management System",
-    type: "Operational Achievement",
-    description:
-      "A system contribution created during front desk operations to improve visitor handling, documentation, and reception workflow visibility.",
-    stack: ["Visitor Operations", "Documentation", "Workflow"],
-    links: [{ label: "Career Highlight", url: "#highlights" }]
-  },
-  {
     title: "Helpdesk Management System",
-    type: "Operational Achievement",
+    type: "Advanced Excel Automation",
     description:
-      "A helpdesk workflow contribution focused on issue tracking, request handling, and smoother internal support coordination.",
-    stack: ["Helpdesk", "Coordination", "Support Workflow"],
-    links: [{ label: "Career Highlight", url: "#highlights" }]
+      "A centralized support ticket management system built using Advanced Excel to organize helpdesk requests, improve follow-up, and support internal issue tracking.",
+    stack: ["Advanced Excel", "Helpdesk", "Ticket Management"],
+    links: [{ label: "Achievement", url: "#highlights" }]
   },
   {
-    title: "HRMS Testing",
-    type: "Software Testing",
+    title: "Checklist Management System",
+    type: "Workflow Automation",
     description:
-      "Testing support for HRMS workflows, helping validate business processes, usability, and internal system readiness.",
-    stack: ["HRMS", "Testing", "Business Process"],
+      "A workflow-driven checklist tracking system designed to standardize internal task monitoring and improve operational visibility.",
+    stack: ["Advanced Excel", "Power Automate", "Workflow Tracking"],
     links: [{ label: "MIS Role", url: "#timeline" }]
   },
   {
-    title: "VISTRAX INDIA Vision",
-    type: "Entrepreneurship",
+    title: "Quality Control Management System",
+    type: "Current Development",
     description:
-      "A long-term software company vision focused on SaaS, ERP, HRMS, and AI solutions for practical business transformation.",
-    stack: ["SaaS", "ERP", "HRMS", "AI Solutions"],
+      "A quality control platform currently under development to manage quality workflows, improve process control, and support data-backed operational review.",
+    stack: ["Python", "Django", "MySQL", "Quality Control"],
+    links: [{ label: "Current Development", url: "#timeline" }]
+  },
+  {
+    title: "HRMS Testing",
+    type: "Functional Testing",
+    description:
+      "Functional testing work for HRMS workflows, focused on validating business logic, user journeys, process accuracy, and system readiness.",
+    stack: ["HRMS", "Functional Testing", "Business Process"],
+    links: [{ label: "Testing Activities", url: "#timeline" }]
+  },
+  {
+    title: "Intranet Testing",
+    type: "Application Testing",
+    description:
+      "Application testing support for intranet workflows, helping verify usability, navigation, functionality, and internal deployment readiness.",
+    stack: ["Intranet", "Application Testing", "Workflow Validation"],
+    links: [{ label: "Testing Activities", url: "#timeline" }]
+  },
+  {
+    title: "The Syntax Writer",
+    type: "Technology Education Platform",
+    description:
+      "A learning platform created to share practical technology education across Excel, SQL, Linux, Python, Data Analytics, and applied technical skills.",
+    stack: ["Excel", "SQL", "Linux", "Python", "Data Analytics"],
+    links: [{ label: "Creator Story", url: "#timeline" }]
+  },
+  {
+    title: "VISTRAX INDIA",
+    type: "MSME Registered Startup",
+    description:
+      "A startup mission focused on building affordable software products and automation solutions for Indian businesses, including SaaS, ERP, HRMS, AI, and automation tools.",
+    stack: ["SaaS", "ERP", "HRMS", "AI Solutions", "Automation"],
     links: [{ label: "Future Vision", url: "#vision" }]
   }
 ];
