@@ -47,11 +47,28 @@ const renderTimeline = () => {
 const renderProjects = () => {
   projects.forEach((project) => {
     const article = createElement("article", "project-card");
+    const image = document.createElement("img");
+    image.className = "project-card__image";
+    image.src = project.image;
+    image.alt = `${project.title} placeholder screenshot`;
+
     const type = createElement("p", "card-label", project.type);
     const title = createElement("h3", null, project.title);
+    const status = createElement("p", "project-card__status", project.status);
     const description = createElement("p", null, project.description);
+    const metaList = createElement("dl", "project-card__meta");
     const stack = createElement("div", "tag-list");
     const links = createElement("div", "card-links");
+
+    [
+      ["Role", project.role],
+      ["Problem", project.problem],
+      ["Impact", project.impact]
+    ].forEach(([label, value]) => {
+      const group = document.createElement("div");
+      group.append(createElement("dt", null, label), createElement("dd", null, value));
+      metaList.appendChild(group);
+    });
 
     project.stack.forEach((item) => {
       stack.appendChild(createElement("span", null, item));
@@ -63,7 +80,7 @@ const renderProjects = () => {
       links.appendChild(anchor);
     });
 
-    article.append(type, title, description, stack, links);
+    article.append(image, type, title, status, description, metaList, stack, links);
     projectList.appendChild(article);
   });
 };
@@ -79,10 +96,10 @@ const renderDocuments = () => {
     const link = createElement(
       "a",
       `document-card__link${isVerified ? "" : " is-disabled"}`,
-      isVerified ? "Open document" : "Add file later"
+      isVerified ? "Open document" : "Request privately"
     );
 
-    link.href = isVerified ? documentItem.url : "#documents";
+    link.href = isVerified ? documentItem.url : "#contact";
 
     if (isVerified) {
       link.target = "_blank";
